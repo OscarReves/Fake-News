@@ -1,0 +1,18 @@
+Database:
+    - Corpus too large to include, but can be found at:
+        https://github.com/several27/FakeNewsCorpus
+    - Database can be created by running database/create_table.py
+    - Values from csv files are inserted by running insert.py
+
+Scraper:
+    - To run spider, from scraper directory:
+        $ srapy runspider scraper.py -o results.csv -t csv
+
+Stats:
+    - Automatically generates figures for a number of different queries
+
+Model:
+    - Model is trained in training_model.py
+    - pickled versions of transformers and model are saved in model/models
+    - to be accessed when cross-domain testing in kaggle.py and liar.py
+

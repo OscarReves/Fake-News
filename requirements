@@ -1,0 +1,19 @@
+Scrapy 
+    - for scraping urls
+    - https://scrapy.org/
+
+Scikit-learn
+    - for building classification model
+    - https://scikit-learn.org/stable/
+
+Psycopg2
+    - PostgreSQL python implementation
+    - https://pypi.org/project/psycopg2/
+
+Pandas
+    - for handling .csv and .tsv files
+    - https://pandas.pydata.org/
+
+Matplotlib
+    - for plotting
+    - https://matplotlib.org/

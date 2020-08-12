@@ -41,8 +41,8 @@ query = """
 nrows = select(query)[0][0]
 
 chunk_upload(
-    input_csv="data/news_full.csv",
-    chunk_size=1000,
+    input_csv="data/results1.csv",
+    chunk_size=10,
     queries = queries,
-    skip_rows=nrows
+    skip_rows=0
 )
