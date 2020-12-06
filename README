@@ -6,7 +6,7 @@ Database:
 
 Scraper:
     - To run spider, from scraper directory:
-        $ srapy runspider scraper.py -o results.csv -t csv
+        $ scrapy runspider scraper.py -o results.csv -t csv
 
 Stats:
     - Automatically generates figures for a number of different queries
